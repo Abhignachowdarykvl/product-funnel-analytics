@@ -47,9 +47,12 @@ stg_ga4_sessions    (one row per session)
 
 > Dashboard: [link coming after Tableau publish]
 
-- Overall purchase conversion rate: TBD after running models
-- Mobile vs desktop conversion difference: TBD
-- Top revenue channel: TBD
+- 241,752 total sessions analyzed across November–December 2020
+- Overall purchase conversion rate: 1.54% (3,733 purchases from 241,752 sessions)
+- Funnel drop-off: 53,917 viewed a product → 10,651 added to cart → 3,733 purchased
+- Google Organic is the top revenue channel ($83,033), followed by Direct ($58,112)
+- Desktop converts best; tablet has the lowest conversion at 1.4%
+- Total revenue analyzed: $263,905
 
 ## Skills Demonstrated
 
