@@ -1,0 +1,17 @@
+name: product_funnel
+version: '1.0.0'
+config-version: 2
+
+profile: product_funnel
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  product_funnel:
+    staging:
+      +schema: staging
+      +materialized: view
+    marts:
+      +schema: marts
+      +materialized: table

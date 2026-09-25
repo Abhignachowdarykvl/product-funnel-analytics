@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: fct_funnel
+    description: "Daily conversion funnel by device and traffic source."
+    columns:
+      - name: session_date
+        tests: [not_null]
+      - name: total_sessions
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
+
+  - name: fct_retention
+    description: "Weekly retention cohorts."
+    columns:
+      - name: cohort_week
+        tests: [not_null]
+      - name: active_users
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "> 0"
+
+  - name: fct_revenue_attribution
+    description: "First-touch revenue attribution by traffic source."
