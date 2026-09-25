@@ -45,7 +45,7 @@ stg_ga4_sessions    (one row per session)
 
 ## Key Findings
 
-> Dashboard: [Product Funnel Analytics](https://public.tableau.com/app/profile/abhigna.chowdary/viz/ProductFunnelAnalytics/Sheet3)
+> Dashboard: [Product Funnel Analytics](https://public.tableau.com/app/profile/abhigna.chowdary/viz/ProductFunnelAnalytics/Dashboard1)
 
 - 241,752 total sessions analyzed across November–December 2020
 - Overall purchase conversion rate: 1.54% (3,733 purchases from 241,752 sessions)
